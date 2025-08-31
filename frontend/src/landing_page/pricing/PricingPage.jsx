@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../product/Hero';
+import Hero from '../pricing/Hero';
 import Brokrage from './Brokrage';
 
 function PricingPage() {

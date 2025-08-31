@@ -67,29 +67,29 @@ function Navbar() {
         <div className="md:hidden bg-white border-t">
           <ul className="flex flex-col space-y-3 p-4 text-gray-700 font-medium">
             <li>
-              <a href="#" className="text-gray-700 no-underline hover:text-blue-600">
+              <Link to="/signup" className="text-gray-700 no-underline hover:text-blue-600">
                 Signup
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-gray-700 no-underline hover:text-blue-600">
+              <Link to="/about" className="text-gray-700 no-underline hover:text-blue-600">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-gray-700 no-underline hover:text-blue-600">
+              <Link to="/product" className="text-gray-700 no-underline hover:text-blue-600">
                 Product
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-gray-700 no-underline hover:text-blue-600">
+              <Link to="/pricing" className="text-gray-700 no-underline hover:text-blue-600">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="text-gray-700 no-underline hover:text-blue-600">
+              <Link to="/support" className="text-gray-700 no-underline hover:text-blue-600">
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
