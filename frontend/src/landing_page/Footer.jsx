@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Footer() {
   return (
@@ -20,22 +21,22 @@ function Footer() {
 
           {/* Company Links */}
           <div>
-            <p className="font-semibold mb-3 ml-7">Company</p>
+            <p className="font-semibold mb-3 ">Company</p>
             <ul className="space-y-1 text-gray-600">
-              <li><a href="#" className="hover:text-blue-600">About</a></li>
-              <li><a href="#" className="hover:text-blue-600">Products</a></li>
-              <li><a href="#" className="hover:text-blue-600">Pricing</a></li>
-              <li><a href="#" className="hover:text-blue-600">Referral programme</a></li>
-              <li><a href="#" className="hover:text-blue-600">Careers</a></li>
-              <li><a href="#" className="hover:text-blue-600">Zerodha.tech</a></li>
-              <li><a href="#" className="hover:text-blue-600">Press & media</a></li>
-              <li><a href="#" className="hover:text-blue-600">Zerodha cares (CSR)</a></li>
+              <li><Link to="/about" className="hover:text-blue-600">About</Link></li>
+              <li><Link to="/" className="hover:text-blue-600">Referral programme</Link></li>
+              <li><Link to="/pricing" className="hover:text-blue-600">Pricing</Link></li>
+              <li><Link to="/" className="hover:text-blue-600">Careers</Link></li>
+              <li><Link to="/product" className="hover:text-blue-600">Products</Link></li>
+              <li><Link to="/" className="hover:text-blue-600">Zerodha.tech</Link></li>
+              <li><Link to="/" className="hover:text-blue-600">Press & media</Link></li>
+              <li><Link to="/" className="hover:text-blue-600">Zerodha cares (CSR)</Link></li>
             </ul>
           </div>
 
           {/* Support Links */}
           <div>
-            <p className="font-semibold mb-3 ml-7">Support</p>
+            <p className="font-semibold mb-3 ">Support</p>
             <ul className="space-y-1 text-gray-600">
               <li><a href="#" className="hover:text-blue-600">Contact</a></li>
               <li><a href="#" className="hover:text-blue-600">Support portal</a></li>
@@ -47,7 +48,7 @@ function Footer() {
 
           {/* Account Links */}
           <div>
-            <p className="font-semibold mb-3 ml-7">Account</p>
+            <p className="font-semibold mb-3 7\">Account</p>
             <ul className="space-y-1 text-gray-600">
               <li><a href="#" className="hover:text-blue-600">Open an account</a></li>
               <li><a href="#" className="hover:text-blue-600">Fund transfer</a></li>
