@@ -16,6 +16,7 @@ Check out the live version of the project here:
 
 ## 📂 Folder Structure
 
+```
 frontend/
 │── public/
 │   ├── font-awesome/
@@ -38,7 +39,7 @@ frontend/
     ├── OpenAccount.jsx
     └── App.css
     
-
+```
 ## 🚀 Features
 
 * **Responsive Layout** – Built with React and CSS to ensure smooth rendering on all screen sizes.
